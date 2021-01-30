@@ -1,0 +1,89 @@
+body { 
+    background-color: blanchedalmond;
+    background-image:url( );
+    background-attachment:fixed;
+     }
+a {
+    text-decoration: none
+  }
+span.A {
+    width: 50%;height:200px ;
+    background-color: red;
+    animation-name:what; 
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
+      }
+    @keyframes what { 
+        from{ background-color: red;} 
+        to {background-color: green;}
+      }  
+ p.1 {
+     text-align: center ;  color: lime;
+     border-radius: 15%;
+    }
+ .B1   {
+      padding:  15px;
+      text-align: center; 
+      background:  #e9b611;
+      border: none ; width: 300px;
+      color:  #f8f9f9;
+        }
+ .B1 :hover{
+      color: white;
+      background-color: teal;
+           }
+ ol { text-align: center;
+      max-width:25% ; 
+      list-style: none; 
+      background-color: goldenrod;
+    }
+ ol li{ 
+      font-weight: bold;
+      } 
+ div.B3{
+       text-align: center;
+       }
+ p.2{
+     text-align: center ; 
+     color: lime;
+     border-radius: 15%;
+    } 
+ h2.3 {
+       text-align : center; 
+       color: green; 
+      }
+ p.4A { 
+     text-align : center
+      }
+ /* span.3D {width: 50%;height:300px ; background-color: red; animation-name:3D; animation-duration: 2s;  */
+    /* animation-iteration-count: infinite;} */
+    /* @keyframes what { from{ background-color: red;}  */
+/* to {background-color: green;}}  */
+div.D4 { color:rgb(0, 255, 21);   width: 303px; text-align: center; height: 300px ; border: 3px dotted red;
+background: url(DREAM3.png); padding: 20px; background-repeat: none; border-radius: 15%;}
+button.A4 { background-color: darkgreen ; color: cornsilk; border: none; font-size:20px ;border-radius: 10%;}
+button.A4 :hover { background-color: darkmagenta; visibility: hidden;}
+.button { background-color: green; border: none; color: white; padding: 16px 32px; text-align:
+     center; display: ruby; margin: 4px 2px; transition-duration: 0.5s; cursor: pointer;}
+.button1 { background-color: white; color: black; border: 2px solid #4CAF50;}     
+.button1:hover { background-color: rgb(38, 12, 187); color:  white;}
+.button2{ background-color: white; color: black; border: 2px solid rgb(224, 138, 7);} 
+.button2:hover { background-color: rgb(60, 216, 12); color:  white;}
+.button3{ background-color: white; color: black; border: 2px solid rgb(224, 7, 90);}
+.button3:hover { background-color: rgb(5, 181, 204); color:  white;}
+.button4{ background-color: white; color: black; border: 2px solid rgb(230, 226, 7);}
+.button4:hover { background-color: rgb(0, 44, 238); color:  white;} 
+.button5{ background-color: white; color: black; border: 2px solid rgb(156, 19, 19);}
+.button5:hover { background-color: rgb(238, 0, 0); color:  white;} 
+.button6{ background-color: white; color: black; border: 2px solid rgb(0, 128, 21);}
+.button6:hover { background-color: rgb(182, 25, 174); color:  white;} 
+.button7{ background-color: white; color: black; border: 2px solid rgba(44, 6, 107, 0.5);}
+.button7:hover { background-color: rgb(190, 233, 0); color:  white;}  
+div.fixed { position: fixed; border: 5px solid red; width: 25%; right: 0;top: 0; background-color: rosybrown;}
+div.fixed:hover{ background-color: rgb(0, 255, 0); color:rgb(250, 249, 249) ;}  
+div.hp{ width: 300px; transition-duration:width 5s,height 9s; height: 200px; background-color:red;
+      word-break: break-all; transition-timing-function: ease-in-out; transition-delay: 1s; transform: 2s;}
+div.hp:hover{ width: 850px;
+     height:400px; transform: rotate(360deg); background-color: greenyellow; color: white;}
+     div.opp {border: 2px solid blue; text-align: center; text-decoration: none; padding: 0px; margin: 5px; border-radius: 5px;}
+     ul li { float: left; display: inline;}

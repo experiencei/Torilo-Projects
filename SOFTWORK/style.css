@@ -1,0 +1,10 @@
+body { background-color: rgb(245, 131, 0);}
+#ul-circle { color:  rgb(221, 2, 250);
+     font-size: 30px ;
+    text-align:  center;
+font-weight: 700;
+text-decoration: none}
+
+p.large { color: red ; font-family: monospace; text-align: right;}
+ p.center { color: red ; font-family: monospace; text-align: right;}
+  

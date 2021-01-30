@@ -1,0 +1,22 @@
+ul {background-color: rgb(240, 255, 23);
+    padding: 30px;
+}
+ul li { list-style-type: square;
+margin: 5px;
+background-color: darkkhaki;}
+thead th :nth-child(1) { width: 50%;}
+thead th :nth-child(2) { width: 40%;}
+thead th :nth-child(3) { width: 60%;}
+thead th :nth-child(4) { width: 50%;}
+img { z-index: -1;  position: absolute;}
+div.absolute { position: absolute; border: 2px solid pink; width: 200px; height: 100px; top: 80px; right: 0;}
+/* div.relative {position: reslative; border: 2px solid pink; width: 400px; height: 400px;} */
+div {border: 5px solid greenyellow;}
+of { overflow:auto ;}
+nav {float: left; border: 2px solid blue; margin-right:150px; width: 200px;}
+section {border: 3px solid red; margin-left: 207px;}
+.margin { margin-left: 200px  ; width: 40%; border:  2px solid greenyellow;}
+div + p { color:  green;}
+ p::first-letter  { color: rgb(20, 3, 255);font-size: xx-large;}
+ h1::before { content: url(dream6.png);}
+ 
