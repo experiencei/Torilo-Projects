@@ -1,0 +1,39 @@
+     * {box-sizing: border-box; margin: auto; }
+     .class1 { background-color: rgb(222, 228, 233); display: inline-block;
+        text-align: center;padding: 2px 12px; top:0px; left: 30px; outline: none;
+         border: none; width: 120px; height: 50px; font-weight: bold; font-size: 20px; cursor: pointer;}
+     a:hover { opacity: 0.8;}
+     .class2 { color: black; text-decoration: none; font-size: 20px; font-weight: bolder; margin-top: 30px; margin-left: 10px;}
+     .a1{display: inline-block; position: relative;}
+     .a2 { padding: 15px; text-align: center;  width: 300px; font-size: 20px; font-weight: bolder;}
+     .a3 { position: absolute; display: none; width: 100%; box-shadow: 0px 15px 120px beige, 0px 12px 120px whitesmoke ; font-size: 20px; font-weight: bolder;}
+     .a1:hover > .a3 {display:block ; opacity: 0.8;}
+     .a3:hover { text-decoration: underline chocolate; opacity: 0.9;}
+     .grid { display: grid;  grid-template-columns: 50% 50%; padding: 3em; position: relative;}
+        /* .col-6 {width: 50%; text-align: center; column-gap: 1em; margin: 0 auto;} */
+        span{ position: absolute;
+            bottom: 20% ;
+            left:10%;
+            font-size: 200%;
+            color: white;
+            font-weight: bolder;
+            /* /* transform: translate(-50% , -50%);  */
+            } 
+        .border { margin: 0 auto; width: 75%; height: 180px; background-color: rgb(206, 203, 206); border: none;}
+        .col-4 { width: 33.33%; text-align: center;}
+        .flex2 { display:flex; }
+        .button3 {background-color: rgb(67, 65, 65); border:  none; color: white; padding: 16px 32px; text-align:
+            center; display: block  ; margin: 4px 2px;  cursor: pointer; outline: none;} 
+        #a5 { background-color: rgb(0,0,0); border: none; color: white;
+             text-align: center; cursor: pointer; outline: none; width: 12%; height: 50px; font-size: larger;}
+             hr {
+                height: 3px;
+                color: #000000;
+                background-color: rgb(0, 0, 0);
+                margin-bottom: 0px;
+                text-align:center;
+                width: 75%;
+              }  
+            
+     
+    
